@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Eric Hickstein Bootstrap Portfolio - Portfolio</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+</head>
+<body style='background-image:url("gravel.png");'>
+    <nav class="navbar fixed-top navbar-light" style="background-color:#ffffff; padding:0px;">
+        <div class='container' style="width:100%">
+            <div class='row' style="width:100%">
+                <div class='col-md-2'></div>
+                <div class='col-md-8' style='padding:0px'>
+                    <a class="navbar-brand" href="index.html" style="background-color:#4aaaa5; color:#ffffff; padding:10px; font-family: 'Georgia', Times, Times New Roman, serif; font-size:2em; font-weight:bold;">
+                            Eric Hickstein</a>
+                    <!--I tried to make the navbar a mobile responsive one, with the toggler, but could not figure out why this code from the website
+                    does not work. It may have to do with the container inside the navbar, but that was the only way I could figure
+                    out how to keep the navbar centered with the main content, so I took the lesser of two evils.-->
+                    <ul class="nav" style="float:right; margin-top:12px;">
+                        <li class="nav-item">
+                        <a class="nav-link" href="index.html" style="color:#777777">About</a>
+                        </li>
+                        <li class="nav-item">
+                        <a class="nav-link" href="portfolio.html" style="color:#777777">Portfolio</a>
+                        </li>
+                        <li class="nav-item">
+                        <a class="nav-link" href="contact.html" style="color:#777777">Contact</a>
+                        </li>    
+                    </ul>
+                </div>
+                <div class='col-md-2'></div>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <div class='container' style='margin-top:90px; height:auto;'>
+        <div class='row'>
+            <div class='col-md-2'></div>   
+            <div class='col-md-8'style='background-color:#ffffff;'>    
+                <div class='row'>
+                    <div class='col-md-12' style='position:relative;'>
+                        <h2 style="padding-top: 10px; color:#4aaaa5; font-family: 'Georgia', Times, Times New Roman, serif; font-size:2em; font-weight:bold;">
+                            Portfolio
+                        </h2>
+                        <hr>
+                        <div class="thumbnail text-center" style="position:relative; float:left; margin: 15px;">
+                            <img src="https://picsum.photos/325/200/" alt="stock photo 1" class="img-responsive">
+                            <div class="caption" style="position:absolute; top: 60%; left:0; width:100%">
+                                <h3 style="width: 325px;height: 75px;background-color: #4aaaa5;color: #ffffff;font-family: 'Georgia', Times, 'Times New Roman', serif;text-align: center;font-size: 30px;">
+                                    Hangman
+                                </h3>
+                            </div>
+                        </div>
+                        <div class="thumbnail text-center" style="position:relative; float:left; margin:15px;">
+                            <img src="https://picsum.photos/325/200/" alt="stock photo 1" class="img-responsive">
+                            <div class="caption" style="position:absolute; top: 60%; left:0; width:100%">
+                                <h3 style="width: 325px;height: 75px;background-color: #4aaaa5;color: #ffffff;font-family: 'Georgia', Times, 'Times New Roman', serif;text-align: center;font-size: 30px;">
+                                    Rutgers Info Widget
+                                </h3>
+                            </div>
+                        </div>
+                        <div class="thumbnail text-center" style="position:relative; float:left; margin:15px;">
+                            <img src="https://picsum.photos/325/200/" alt="stock photo 1" class="img-responsive">
+                            <div class="caption" style="position:absolute; top: 60%; left:0; width:100%">
+                                <h3 style="width: 325px;height: 75px;background-color: #4aaaa5;color: #ffffff;font-family: 'Georgia', Times, 'Times New Roman', serif;text-align: center;font-size: 30px;">
+                                    RPG Game
+                                </h3>
+                            </div>
+                        </div>
+                        <div class="thumbnail text-center" style="position:relative; float:left; margin:15px;">
+                            <img src="https://picsum.photos/325/200/" alt="stock photo 1" class="img-responsive">
+                            <div class="caption" style="position:absolute; top: 60%; left:0; width:100%">
+                                <h3 style="width: 325px;height: 75px;background-color: #4aaaa5;color: #ffffff;font-family: 'Georgia', Times, 'Times New Roman', serif;text-align: center;font-size: 30px;">
+                                    Rock Paper Scissors
+                                </h3>
+                            </div>
+                        </div>
+                        <div class="thumbnail text-center" style="position:relative; float:left; margin:15px;">
+                            <img src="https://picsum.photos/325/200/" alt="stock photo 1" class="img-responsive">
+                            <div class="caption" style="position:absolute; top: 60%; left:0; width:100%">
+                                <h3 style="width: 325px;height: 75px;background-color: #4aaaa5;color: #ffffff;font-family: 'Georgia', Times, 'Times New Roman', serif;text-align: center;font-size: 30px;">
+                                    Trivia Game
+                                </h3>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            <div class='col-md-2'></div>
+        </div>
+    </div>
+    <footer style="position:fixed; bottom:0; left: 0;width:100%; height: 60px; background-color:#666666; border-top: solid 5px #4aaaa5;">
+        <div class="container-fluid py-3">
+            <div class="row">
+                <div class="col-md-12" style="text-align: center; color:#ffffff;">
+                    Copyright Eric Hickstein &copy;
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+</body>
+</html>
